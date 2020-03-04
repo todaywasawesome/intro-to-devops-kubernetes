@@ -1,3 +1,3 @@
 #!/bin/bash
 
-touch myfile.txt
+touch ~/myfile.txt
