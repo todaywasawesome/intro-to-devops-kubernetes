@@ -9,9 +9,9 @@ Open your Dockerfile, and before ENTRYPOINT, add a new image from argument.
 
 Now we'll need to copy the app from our build container.
 
-`COPY --from=build-env /src/myapp /go/bin/myapp`
+`COPY --from=builder /src/myapp /go/bin/myapp`
 
 And finally the ENTRYPOINT should be
 
-`ENTRYPOINT ["./myapp"]`
+`ENTRYPOINT ["/go/bin/myapp"]`
 
