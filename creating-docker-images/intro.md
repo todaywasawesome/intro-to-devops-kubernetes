@@ -1,0 +1,1 @@
+In this workshop, we'll be working with Docker images. 
