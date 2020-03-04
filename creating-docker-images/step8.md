@@ -4,15 +4,12 @@ Remember when we started? We created an image that included all the tooling need
 
 Open your Dockerfile, and before ENTRYPOINT, add a new image from argument.
 
-`FROM scratch`
+`FROM alpine`
 
-Set the working directory
-
-`WORKDIR /app`
 
 Now we'll need to copy the app from our build container.
 
-`COPY --from=build-env /src/myapp /app/`
+`COPY --from=build-env /src/myapp /go/bin/myapp`
 
 And finally the ENTRYPOINT should be
 
