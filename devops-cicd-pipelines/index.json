@@ -1,5 +1,5 @@
 {
-  "title": "Creating a DevOps loop with containuous integration/delivery (CI/CD)",
+  "title": "Creating a DevOps loop with continuous integration/delivery (CI/CD)",
   "description": "In this lesson we'll bring everything together to create a fully fleshed out CI/CD pipeline.",
   "difficulty": "Intermediate",
   "time": "1 hour",
@@ -48,22 +48,6 @@
       {
         "title": "Step 11",
         "text": "step11.md"
-      },
-      {
-        "title": "Step 12",
-        "text": "step12.md"
-      },
-      {
-        "title": "Step 13",
-        "text": "step13.md"
-      },
-      {
-        "title": "Step 14",
-        "text": "step14.md"
-      },
-      {
-        "title": "Step 15",
-        "text": "step15.md"
       }
     ],
     "intro": {
