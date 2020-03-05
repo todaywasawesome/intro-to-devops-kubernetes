@@ -10,7 +10,7 @@ See the image we build by running
 
 You'll see an image with no name here. So lets rebuild it with a new name.
 
-`docker build-t todaywasawesome/color-coded .`
+`docker build -t todaywasawesome/color-coded .`
 
 See how it's changed
 
