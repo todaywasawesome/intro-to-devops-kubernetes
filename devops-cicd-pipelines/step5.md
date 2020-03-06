@@ -15,6 +15,6 @@ Anytime we want to use an image elsewhere (like for deployment) we need to make 
     tags:
       - "${{CF_BRANCH_TAG_NORMALIZED}}"
       - "${{CF_REVISION}}"
-```
+```{{copy}}
 
 Now we're ready to start deploying!

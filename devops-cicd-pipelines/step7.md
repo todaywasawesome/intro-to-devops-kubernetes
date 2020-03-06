@@ -12,6 +12,6 @@ While you wait...
 
 Let's check on how this is using resources
 
-`kubectl get pods -n allinone` where you can see pods have started for our pipeline.
+`kubectl get pods -n allinone`{{copy}} where you can see pods have started for our pipeline.
 
-`kubectl describe nodes` will show the status of our nodes and how memory is being allocated. 
+`kubectl describe nodes`{{copy}} will show the status of our nodes and how memory is being allocated. 

@@ -15,6 +15,6 @@ Lets go back to editing our pipeline and add our deploy step.
       - KUBERNETES_NAMESPACE=default
       - MY_REPLICA_NUMBER=3
       - KUBERNETES_DEPLOYMENT_TIMEOUT=360 
-```
+```{{copy}}
 
-Save and run this, if everything works, you should see the app running at `http://localhost:30925/`
+Save and run this, if everything works, you should see the app running at `http://localhost:30925/`{{copy}}

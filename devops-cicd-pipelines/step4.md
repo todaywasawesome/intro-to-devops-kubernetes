@@ -11,16 +11,16 @@ Add these to your yaml.
     stage: "test"
     steps:
       gotest: 
-        title: Stand-in for running Go tests
+        title: "Stand-in for running Go tests"
         image: golang
         commands:
         - go version
       
       javatest: 
-        title: Stand-in for testing with Java
+        title: "Stand-in for testing with Java"
         image: java:8-jre-alpine
         commands:
         - java -version
-```
+```{{copy}}
 
 Notice we can use images as steps, and we can access any language we need or want. 

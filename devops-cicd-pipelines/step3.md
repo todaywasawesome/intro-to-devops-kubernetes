@@ -28,7 +28,7 @@ Next, we'll add a section to checkout our code.
   clone:
     type: "git-clone"
     description: "Cloning main repository..."
-    repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
+    repo: "${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}"
     revision: "${{CF_BRANCH}}"
     stage: "build"
 ```{{copy}}
