@@ -20,7 +20,7 @@ stages:
   - "deploy"
 
 steps:
-```
+```{{copy}}
 
 Next, we'll add a section to checkout our code.
 
@@ -31,7 +31,7 @@ Next, we'll add a section to checkout our code.
     repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
     revision: "${{CF_BRANCH}}"
     stage: "build"
-```
+```{{copy}}
 
 Now we'll build our image.
 
@@ -44,6 +44,6 @@ Now we'll build our image.
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
     dockerfile: "Dockerfile"
     stage: "build"
-```
+```{{copy}}
 
 Save and run your pipeline! Looks good! 
