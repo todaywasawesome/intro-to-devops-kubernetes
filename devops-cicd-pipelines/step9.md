@@ -8,7 +8,7 @@ Lets go back to editing our pipeline and add our deploy step.
     image: codefresh/cf-deploy-kubernetes:master
     stage: "deploy"
     commands:
-      - /cf-deploy-kubernetes ${{CF_VOLUME_PATH}/color-coded/deploy/kubernetes/blue.deployment.yaml
+      - /cf-deploy-kubernetes ${{CF_VOLUME_PATH}}/color-coded/deploy/kubernetes/blue.deployment.yaml
       - /cf-deploy-kubernetes ${{CF_VOLUME_PATH}}/color-coded/deploy/kubernetes/blue.service.yaml
     environment:
       - KUBECONTEXT=Katacoda
