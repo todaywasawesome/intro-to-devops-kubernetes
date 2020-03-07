@@ -11,7 +11,7 @@ Copy `blue.service.yaml` to `auto.service.yaml`
 
 If you're using the UI, you can use "Create file" and copy and paste the contents in. 
 
-We're going to replace the image in `auto.deployment.yaml` with `docker.io/rpbo/color-coded:$CF_REVISION`
+We're going to replace the image in `auto.deployment.yaml` with `docker.io/rpbo/color-coded:{{CF_REVISION}}`
 
 Again, you'll need to replace `rpbo` with your own Docker username.
 
